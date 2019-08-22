@@ -1,0 +1,85 @@
+martin:
+  job: Developer
+  name: "Ramesh sw"
+  skills:
+    - python
+    - perl
+    - pascal
+customer:
+    {
+      "id":                          "db_reisezentrum_berlin",
+      "name":                        "DB Reisezentrum Berlin",
+      "systemname":                  "SEMMI",
+      "backendName":                 "semmi-prod_db_rz_berlin",
+      "defaultLanguage":             "de",
+      "zoneid":                      "Europe/Berlin",
+      "nluLeading":                  "GoogleDialogV2Nlu",
+      "nluUsed":                     [
+        "*"
+      ],
+      "capabilities":                [
+        "Rail",
+        "Routing",
+        "FAQ_reisezentrum_berlin",
+        "Smalltalk",
+        "Integration",
+        "Interaction",
+        "Routing",
+        "Weather"
+      ],
+      "preferedIntents":             [
+        "Rail__RailAttribute"
+      ],
+      "entities":                    [
+        "rail",
+        "traincontext",
+        "trainticket",
+        "traintypes",
+        "trainlines",
+        "trainstation",
+        "plattformcontext",
+        "dbvertrieb_berlin_SERVICE",
+        "dbvertrieb_berlin_FOOD",
+        "sys",
+        "wifi",
+        "powerOutlet",
+        "mobiledevices",
+        "picture",
+        "language",
+        "otherLanguages",
+        "weather",
+        "country",
+        "carrental", "citytour", "haircut", "locker", "toilet", "otherai", "courtesy", "navigationElement"
+      ],
+      "systemInputLanguages":        [
+        "en",
+        "de"
+      ],
+      "systemOutputLanguages":       [
+        "en",
+        "de"
+      ],
+      "systemTargetLanguage":        "de",
+      "railStationId":               "008011160",
+      "railStationIdsAbfahrtstafel": [
+        "008011160",
+        "008089021",
+        "000730749",
+        "008098160"
+      ],
+      "railStationMapsId":           "1071",
+      "defaultRetailCategory":       "FOOD",
+      "defaultAssistent":            "rail"
+    }
+
+app:
+  menus:
+    - title: Home
+      name: Home
+      path: /
+    - title: Login
+      name: Login
+      path: /login
+  compiler:
+    timeout: 5
+    output-folder: /temp/

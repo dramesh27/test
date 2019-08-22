@@ -1,0 +1,20 @@
+id: codes
+greetings:
+  morning: Good morning
+  midday: Good afternoon
+  evening: Good evening
+  night: Hi
+connectors:
+  target: your destination
+  and: and
+  or: or
+  to: to
+timeUnits:
+  day: day
+  days: days
+  hour: hour
+  hours: hours
+  minute: minute
+  minutes: minutes
+  second: second
+  seconds: seconds

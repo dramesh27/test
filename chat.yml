@@ -1,0 +1,3 @@
+id: chat
+getActionUrl: https://localhost:8090/action/get/v1
+pollActionUrl: https://localhost:8090/action/poll/v1
