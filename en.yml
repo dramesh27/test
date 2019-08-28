@@ -1,4 +1,5 @@
 id: codes
+getActionUrl: https://localhost:8090/action/get/v1
 greetings:
   morning: Good morning
   midday: Good afternoon
